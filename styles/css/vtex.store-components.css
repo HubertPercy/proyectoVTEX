@@ -1,0 +1,15 @@
+.infoCardHeadline{
+    font-weight: 300;
+}
+.infoCardHeadline--Left{
+    text-decoration: underline;
+}
+.infoCardCallActionContainer{
+    border-radius: 50%;
+}
+.infoCardCallActionContainer :global(.vtex-button){
+    background-color: #ff0000;
+}
+.infoCardCallActionContainer :global(.vtex-button__label){
+    color: black;
+}
